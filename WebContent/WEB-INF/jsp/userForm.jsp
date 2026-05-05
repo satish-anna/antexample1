@@ -23,6 +23,7 @@
 			<td>Gender :</td>
 			<td><form:radiobutton path="gender" value="M" label="M" /> 
 				<form:radiobutton path="gender" value="F" label="F" /></td>
+			        <form:radiobutton path="gender" value="U" label="U" /></td>
 		</tr>
 		<tr>
 			<td>Country :</td>
@@ -48,7 +49,7 @@
 		<tr>
 			<td></td>
 			<td><form:checkbox path="mailingList"
-				label="Would you like to join our mailinglist?" /></td>
+				label="Would you like to join our "mailinglist"?" /></td>
 		</tr>
 		<tr>
 			<td colspan="2"><input type="submit"></td>
